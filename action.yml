@@ -5,7 +5,7 @@ inputs:
     description: 'Required label'
     required: true
     default: 'automated'
-  required-label: 
+  required-user: 
     description: 'Required user'
     required: true
     default: 'hughrun'
