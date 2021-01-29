@@ -15,5 +15,5 @@ Pull Requests must be from this user.
 
 uses: actions/can-pr-be-automerged-action@v1.0  
 with:  
-  required_label: 'automerge'  
-  required_user: 'octocat'
+&nbsp;&nbsp;required_label: 'automerge'  
+&nbsp;&nbsp;required_user: 'octocat'
