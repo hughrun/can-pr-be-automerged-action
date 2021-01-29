@@ -1,13 +1,12 @@
 name: 'Can PR be Automerged?'
 description: 'Check whether a PR can be automerged'
 inputs:
-  required-label:
-    description: 'Required label'
-    required: true
-    default: 'automated'
+  required-branch:
+    description: 'Required branch'
+    required: false
   required-user: 
     description: 'Required user'
-    required: true
+    required: false
     default: 'hughrun'
 runs:
   using: 'node12'
