@@ -13,7 +13,7 @@ Pull Requests must be from this user.
 
 ## Example usage
 
-uses: actions/can-pr-be-automerged-action@v1.0
-with:
-  required_label: 'automerge'
-  requried_user: 'octocat'
+uses: actions/can-pr-be-automerged-action@v1.0  
+with:  
+  required_label: 'automerge'  
+  required_user: 'octocat'
