@@ -1,0 +1,14 @@
+name: 'Can PR be Automerged?'
+description: 'Check whether a PR can be automerged'
+inputs:
+  required-label:
+    description: 'Required label'
+    required: true
+    default: 'automated'
+  required-label: 
+    description: 'Required user'
+    required: true
+    default: 'hughrun'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

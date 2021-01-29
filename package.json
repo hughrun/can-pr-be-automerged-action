@@ -1,0 +1,24 @@
+{
+  "name": "can-pr-be-automerged-action",
+  "version": "1.0.0",
+  "description": "GitHub action to check whether a PR can be automerged",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hughrun/can-pr-be-automerged-action.git"
+  },
+  "keywords": [],
+  "author": "Hugh Rundle <hugh@hughrundle.net> (https://www.hughrundle.net)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/hughrun/can-pr-be-automerged-action/issues"
+  },
+  "homepage": "https://github.com/hughrun/can-pr-be-automerged-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  }
+}
